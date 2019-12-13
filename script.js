@@ -55,7 +55,7 @@ const pizzaInit = () => {
     
     // 4. Filter down our pizza obj based on user input
     const sizeOptions = pizza[sizeSelected];
-    console.log(sizeOptions); // When using variables to grab object properties, square brackets HAS to be used
+    // console.log(sizeOptions); // When using variables to grab object properties, square brackets HAS to be used
   
     // 5. Filter down our sizeOptions based on user priceSelected
     const priceOptions = sizeOptions.filter((pizzeria) => {
